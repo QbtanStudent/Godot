@@ -2,3 +2,19 @@
 该教程Up主：Hi小胡
 地址：https://www.bilibili.com/video/BV1w54y1i7Ue
 另外一个类型的教程地址：https://www.bilibili.com/video/BV1Et4y1D7aN
+
+节点：
+Joystick[Sprite] {
+    point[Sprite]
+    Tween
+}
+
+Main[Node2D]{
+    Joystick
+    KinematicBody2D{
+        Sprite
+        CollisionShape2D
+    }
+}
+
+鼠标要模拟触摸操作得在项目设置-Input Devices - Pointing - Touch 启用
